@@ -20,7 +20,7 @@ _start:
 # WFI is a "hint" opcode. If implemented, we wait for an.
 # interrupt. if not, it is a NOP.
 .globl dead
-dead: 
+dead:
   li t1, 1
   la t0, idle_counter
   # add t0, (t0), t1
