@@ -1,7 +1,6 @@
-
 #include "riscv_encoding.h"
 
-.data
+.data 
 idle_counter:
 .word 0
 
